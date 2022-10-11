@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <fieldset >
+    <legend>Contact information:</legend>
+    <table cellspacing="2">
+        <form action="/action_page.php">
+
+            <tr>
+            <td><label for="fname">First name:</label> </td>
+            <td><input type="text" name="fname"  placeholder="first name" > preferred contact method:</td>
+            </tr>
+            
+            <tr>
+             
+            <td><label for="lname">last name:</label></td>
+            <td><input type="text" name="lname"  placeholder="Last name">
+              
+                <input type="checkbox"  name="email" value="Email">
+                <label for="email">Email</label>
+            </td>
+          
+            </tr>
+            
+            <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="text" name="email"  placeholder="Email">
+                <input type="checkbox" name="telephone"  value="Telephone">
+                <label for="telephone">Telephone</label>
+            </td>
+            </tr>
+            
+            <tr>
+            <td><label for="telephone">Telephone:</label></td>
+            <td><input type="number" name="telephone"  placeholder="Telephone"></td>
+                
+            </tr>  
+                  
+        </table>  
+        </fieldset>
+        <fieldset aria-disabled="false" >
+           
+            <legend  >Feedback:</legend>
+            
+        
+            <tr>
+            <td ><label for="message subject">Message subject</label></td>
+           
+            <td><input type="text" name="message subject"  placeholder="Message subject"> </td>
+            </tr>
+            <br>
+            <tr>
+            <textarea name="message"  cols="50" rows="15"></textarea>
+             </tr>
+            <br>
+            
+            <p> Attach a file: <input type="file"  name="button"  ></p>
+        
+            <hr size="2" color="black">
+           
+         <input type="submit" value="send">
+        </fieldset>
+        
+        </form>
+</body>
+</html>

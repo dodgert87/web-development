@@ -1,6 +1,4 @@
 # web-development
 
-firast calss
- and we learning
-## sub stuff
-we just trying
+first project a simple web page 
+second project a htmal form
